@@ -1,0 +1,172 @@
+.App {
+  text-align: center;
+  background-image: url("./ast/Sky.png");
+  background-position: center;
+  background-size: cover;
+  background-repeat: repeat-y;
+
+  height: 100%;
+}
+.containerC {
+  width: 80% !important;
+  margin: 0 auto !important;
+}
+
+p {
+  margin: 0;
+}
+
+.header {
+  height: 100px;
+  width: 40vw;
+  margin: 0 auto;
+
+  background-image: url("./ast/Group 2468.png");
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.ulmenu {
+  display: flex;
+
+  width: 80%;
+  justify-content: space-between;
+}
+.ulli {
+  width: 30%;
+  font-size: 44px;
+  color: #00a4bf;
+}
+
+.menu-header .ulmenu {
+  display: flex;
+  border: 1px solid red;
+  text-align: center;
+}
+.menu-header .ulmenu p {
+}
+
+/* banner */
+
+.banner {
+  height: 90vh;
+  width: 99vw;
+  margin: 0 auto;
+  margin-top: 100px;
+  background-image: url("./ast/Mountain.png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.bttn {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.bttn button {
+  padding: 20px 50px;
+  border-radius: 5px;
+  border: none;
+  font-size: 30px;
+  text-transform: capitalize;
+  background-color: transparent;
+  color: transparent;
+  cursor: pointer;
+
+  background-image: url("./ast/Play (Hover).png");
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+/* steps */
+.steps p {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  font-size: 35px;
+  font-weight: 700;
+  color: #08645c;
+}
+
+/* succes */
+.succes {
+  margin-top: 50px;
+}
+
+.succes .ulli {
+  width: 90%;
+  font-size: 50px;
+  font-weight: 700;
+  color: #fff;
+}
+.succ-h1 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+  margin-bottom: 100px !important;
+}
+.succ-h2 {
+  font-size: 60px;
+  font-weight: bolder;
+  color: #fff;
+  padding-top: 50px;
+  padding-bottom: 20px;
+}
+.Bolder-header {
+  font-size: 95px;
+  font-weight: bolder;
+  color: #fff;
+  padding-bottom: 15px;
+}
+.mb1 {
+  margin-top: 200px;
+}
+.succes .header {
+  height: 200px;
+  width: 40vw;
+  margin: 0 auto;
+
+  background-image: url("./ast/Group 2707.png");
+  background-position: center;
+  background-size: content;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer p {
+  font-size: 25px;
+  margin: 0;
+  margin-top: 200px;
+  color: #fff;
+}
+.footer h5 {
+  font-size: 22px;
+  font-weight: bold;
+  margin: 0;
+  color: #fff;
+  padding-bottom: 100px;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
